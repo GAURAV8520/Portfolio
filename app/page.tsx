@@ -2,6 +2,7 @@ import { FaHome } from "react-icons/fa";
 import Hero from "./components/Hero";
 import { FloatingNav } from "./components/ui/FloatingNavbar";
 import Grid from "./components/Grid";
+import RecentProject from "./components/RecentProject";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <FloatingNav className="" navItems={[{name:'Home',link:'/',icon:<FaHome/>}]}/>
       <Hero/>
       <Grid/>
+      <RecentProject/>
     </div>
    </main>
   );
