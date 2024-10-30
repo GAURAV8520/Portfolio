@@ -109,7 +109,7 @@ export const BentoGridItem = ({
             <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
               {title}
             </div>
-            {id === 2 && <GlobeDemo />}
+            {/* {id === 2 && <GlobeDemo />} */}
             {id === 3 && (
               <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 ">
                 <div className="flex flex-col gap-3 lg:gap-8 ">
@@ -134,6 +134,7 @@ export const BentoGridItem = ({
                     </span>
                   ))}
                 </div>
+                
                 <div />
               </div>
             )}
